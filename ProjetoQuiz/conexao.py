@@ -7,7 +7,7 @@ class conexao:
 
     def conectar(self):
         try:
-            self.db_connection = mysql.connector.connect(host='localhost',
+            self.db_connection = mysql.connector.connect(host='127.0.0.1',
                                                          user='root',
                                                          password='',
                                                         database='ProjetoQuiz')
